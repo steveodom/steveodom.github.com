@@ -5,7 +5,7 @@ html {
 
       body {
         color: #A0A0A0;
-        font-family: arial, verdana, sans;
+        font-family: 'Lato', arial, serif; /*Puritan Lato*/
         overflow:hidden;
     
       }
@@ -31,8 +31,8 @@ html {
         color:#85C7E7;
         font-family:'Helvetica','Arial',sans-serif !important;
         font-weight:normal;
-        font-size:2em;
-				text-align:left;
+        font-size:1.5em;
+				text-align:center;
 				margin-bottom:0;
 				margin-top:5px;
       }
@@ -46,13 +46,15 @@ html {
 
       #content {
 				position:absolute;
-				bottom:29%;
-				left:60%;
-        margin-left: -167px;
-        width: 333px;
-        background: transparent url('images/content-bg.png') 0 0 repeat;
-        padding: 20px 20px 1px 20px;
+				bottom:15%;
+				left:0;
+        width: 100%;
+        background: transparent url('images/content-bg.png') 0 0 repeat-x;
+        padding: 5px 20px 1px 20px;
+				font-size:19px;
       }
+
+			p {margin:0;padding:0;}
 
       .hidden {
         display: none;
@@ -60,9 +62,9 @@ html {
 
       #headline {
         color: #FFF;
-        font-weight: bold;
+        font-weight: normal;
         width: 100%;
-        text-align: left;
+        text-align: center;
         margin: 0 0 20px;
  			}
 
@@ -71,7 +73,15 @@ html {
         margin-bottom: 5px;
       }
 
-
+			#actionbox {
+				margin-left:30%;
+				background:#76C5EF;
+				padding:5px 25px;
+				-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;
+				height:82px;
+				width:382px;
+				
+			}
       .clear {
         clear: both;
       }
