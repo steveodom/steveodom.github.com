@@ -46,7 +46,7 @@ html {
 
       #content {
 				position:absolute;
-				bottom:24%;
+				bottom:38%;
 				left:0;
         width: 100%;
 				height:186px;
@@ -89,4 +89,6 @@ html {
       .clear {
         clear: both;
       }
+
+			#boy {position:absolute;top:15px;right:14px;}
  
