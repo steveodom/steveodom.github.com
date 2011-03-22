@@ -91,4 +91,12 @@ html {
       }
 
 			#boy {position:absolute;top:-8px;right:-163px;}
+			
+			#emailbox {font-family:'Helvetica','Arial',sans-serif !important;}
+			#emailbox h2 {margin-top:5px; color:#333;}
+			#emailbox h2 em {display:block;font-style:normal;font-size:16px;color:#555;}
+			#emailbox p {font-size:15px;color:#555;}
+			#emailbox div.share_buttons, #emailbox div.share_link {margin-top:10px;}
+			#emailbox div.share_link input {padding:5px 10px; width:323px;font-size:17px;color:#777;}
+			
  
